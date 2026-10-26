@@ -1,0 +1,13 @@
+Package: adaepkg
+Title: generate ADaM dataset ADAE
+Version: 0.0.0.9000
+Authors@R: 
+    person("Yao", "Lu", , "luyaothu@gmail.com", role = c("aut", "cre"))
+Description: This package converts SDTM domains table into ADAE dataset.
+License: `use_mit_license()`
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: 
+    admiral,
+    dplyr
