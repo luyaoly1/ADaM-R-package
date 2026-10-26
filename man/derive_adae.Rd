@@ -2,7 +2,7 @@
 % Please edit documentation in R/derive_adae.R
 \name{derive_adae}
 \alias{derive_adae}
-\title{Derive ADAE Dataset from SDTM AE and ADaM ADSL}
+\title{Derive ADAE Dataset from SDTM AE and ADaM ADSL (Tidyverse Implementation)}
 \usage{
 derive_adae(ae, adsl)
 }
@@ -12,8 +12,8 @@ derive_adae(ae, adsl)
 \item{adsl}{An ADaM ADSL dataframe.}
 }
 \value{
-An ADAE dataframe compliant with CDISC standards.
+An ADAE dataframe compliant with CDISC conventions.
 }
 \description{
-Derive ADAE Dataset from SDTM AE and ADaM ADSL
+Derive ADAE Dataset from SDTM AE and ADaM ADSL (Tidyverse Implementation)
 }
